@@ -1,0 +1,6 @@
+appdata:
+  - /var/lib/sabnzbd
+mounts:
+  - /path/to/downloads:/downloads
+ports:
+  - 8080:8080
