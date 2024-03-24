@@ -5,6 +5,7 @@
             ROCKET_PORT = 8222;
         };
     };
+    services.tailscale.enable = true;
 
     systemd.services."vaultwarden" = {
         serviceConfig = {
